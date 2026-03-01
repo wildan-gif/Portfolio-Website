@@ -442,7 +442,7 @@ a:hover{
 /*----- Responsive Codes -----*/
 
 
-@media(max-width: 700px){
+@media(max-width: 768px){
 
     nav .item h1{
         font-size: 20px;
