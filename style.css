@@ -444,19 +444,26 @@ a:hover{
 
 @media(max-width: 800px){
 
+    nav{
+        padding: 0;
+        margin: 0;
+    }
+
     nav .item h1{
         font-size: 20px;
-        margin-top: 30px;
-        
+        margin-top: 30px;  
+             
     }
     .item{
-        display: block;
+        display: inline-block;
         padding: 0;
     }
 
     .nav-links, .btn{
         display: flex;
         text-align: center;
+        position: relative;
+        margin-left: -35px;
     }
 
     .nav-links{
