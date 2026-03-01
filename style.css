@@ -1,0 +1,657 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.item{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 10px 50px;
+}
+
+nav{
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.item h1{
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.nav-links{
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.nav-links a{
+    display: inline-block;
+    margin: 0px 30px;
+}
+
+.btn{
+    margin-top: 35px;
+    border: 1px solid #F5E3DF;
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #F5E3DF;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+a:hover{
+    color: #797979;
+    transition: all ease 0.3s;
+}
+
+.btn:hover{
+    border-color: black;
+    background-color: white;
+    transition: all ease 0.3s;
+}
+
+.btn a:hover{
+    color: black;
+}
+
+.header{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 200px 0;
+}
+
+.container{
+    padding: 100px;
+    width: 100%;
+}
+
+.container h1{
+    font-size: 100px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.container p{
+    font-size: 25px;
+    margin-bottom: 50px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.container a{
+    border: 1px solid #F5E3DF;
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #F5E3DF;
+    border-radius: 30px;
+    margin-top: 100px;
+}
+
+.container a:hover{
+    border-color: black;
+    background-color: white;
+    transition: all ease 0.3s;
+    color: black;
+}
+
+.about, .projects{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 200px 0;
+}
+
+.items{
+    padding: 100px;
+    width: 100%;
+}
+
+.items h1{
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+.items p{
+    font-size: 35px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.about hr{
+    width: 30%;
+    margin: auto;
+}
+
+.projects{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 200px 0;
+}
+
+.headlines{
+    padding: 100px;
+    width: 100%;
+}
+
+.headlines h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.headlines p{
+    font-size: 35px;
+    font-weight: 500;
+    color: grey;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.row div{
+    border: 1px solid rgba(0, 0, 0,0.3);
+    box-shadow: 0 0 20px rgba(0, 0, 0,0.3);
+    padding: 50px;
+    font-size: 30px;
+    margin: 0 10px;
+    border-radius: 10px;
+    display: inline;
+}
+
+.row div p{
+    font-size: 20px;
+    padding: 20px 0;
+    padding-bottom: 40px;
+}
+
+.row div a{
+    border: 1px solid #F5E3DF;
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #F5E3DF;
+    border-radius: 15px;
+}
+
+.row div a:hover{
+    border: 1px solid black;
+    background-color: transparent;
+    color: black;
+}
+
+.copyright{
+    margin-top: 100px;
+    text-align: center;
+    background-color: #DBDBDB;
+    padding: 75px;
+}
+
+.copyright h3{
+    color: grey;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.logo{
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.logo a{
+    margin: 0 10px;
+    color: grey;
+}
+
+.logo a:hover{
+    color: #47A2FF;
+}
+
+.blank{
+    background-color: #969696;
+    width: 100%;
+    padding: 50px;
+}
+
+/*----- About Page -----*/
+
+.about-container{
+    display: flex;
+    width: 100%;
+}
+
+.about-container img{
+    width: 80%;
+    border-radius: 20px;
+}
+
+.about-text{
+    font-size: 20px;
+    text-align: left;
+}
+
+.about h2, p{
+    padding: 25px;
+    font-size: 25px;
+}
+
+.icons{
+    display: inline-block;
+    
+}
+
+.judul .bx{
+    border: 1px solid #F5E3DF;
+    background-color: #F5E3DF;
+    padding: 20px;
+    border-radius: 50%;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.judul{
+    display: flex;
+    text-align: center;
+}
+
+.get-in-touch{
+    margin: 100px;
+}
+
+.get-in-touch h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.get-in-touch p{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.get-in-touch a{
+    border: 1px solid #F5E3DF;
+    background-color: #F5E3DF;
+    padding: 20px 40px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+
+/*----- Projects Page -----*/
+
+.projects-page{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.headlines p{
+    text-align: center;
+}
+
+.projects-page p{
+    font-size: 30px;
+    color: #969696;
+}
+
+.row div img{
+    width: 500px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.row div h3, p{
+    text-align: left;
+}
+
+.first p{
+    margin-bottom: 60px;
+}
+
+.contact{
+    padding: 200px 100px;
+    border: 1px solid black;
+    margin: 0 100px;
+    border: 1px solid rgba(0, 0, 0,0.3);
+    box-shadow: 0 0 20px rgba(0, 0, 0,0.3);
+    border-radius: 15px;
+    width: 90%;
+}
+
+.content h2{
+    font-size: 30px;
+    font-weight: 500;   
+    margin-bottom: 50px;
+}
+
+.content a{
+    border: 1px solid #F5E3DF;
+    padding: 20px 40px;
+    background-color: #F5E3DF;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.content a:hover{
+    border-color: black;
+    color: black;
+    background-color: transparent;
+}
+
+.content, .get-in-touch a:hover{
+    border-color: black;
+    background-color: white;
+    transition: all ease 0.3s;
+    color: black;
+}
+
+.projects hr{
+    margin: 100px 0;
+}
+
+/*----- Contact Page -----*/
+
+.contact-me{
+    margin: 100px;
+}
+
+.contact-me .headlines{
+    text-align: center;
+}
+
+.info{
+    display: flex;
+}
+
+.info img{
+    width: 1000px;
+}
+
+.logo-contact{
+    display: flex;
+}
+
+.logo-contact .bx{
+    font-size: 30px;
+    border: 1px solid #F5E3DF;
+    background-color: #F5E3DF;
+    border-radius: 50%;
+    padding: 20px;
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+.info div h2{
+    font-size: 50px;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 23px;
+    margin-top: 80px;
+}
+
+.message{
+    text-align: center;
+}
+
+.message p{
+    text-align: center;
+}
+
+.message input, .message textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.message button{
+    padding: 20px 40px;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: #F5E3DF;
+    font-weight: 500;
+    transition: all ease 0.3s;
+    border-color: transparent;
+}
+
+.message button:hover{
+    background-color: transparent;
+    border-color: black;
+}
+
+/*----- Responsive Codes -----*/
+
+
+@media(max-width: 700px){
+
+    nav .item h1{
+        font-size: 20px;
+        margin-top: 30px;
+        
+    }
+    .item{
+        display: block;
+    }
+
+    .nav-links, .btn{
+        display: flex;
+    }
+
+    .nav-links{
+        font-size: 15px;
+        margin-top: 30px;
+    }
+
+    nav .item .btn{
+        font-size: 15px;
+        justify-content: center;
+    }
+
+    .header .container{
+        display: inline-block;
+        padding: 0;
+    }
+    
+    .header .container h1{
+        font-size: 27px;
+        margin-top: -50px;
+    }
+
+    .header .container p{
+        font-size: 16px;
+        margin-top: -30px;
+        margin-bottom: 20px;
+    }
+
+    .about .items{
+        padding: 0;
+    }
+
+    .about .items h1{
+       font-size: 45px;
+       margin-top: 30px;
+    }
+
+    .about hr{
+        width: 70%;
+    }
+
+    .about .items p{
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .projects .headlines{
+        padding: 0;
+    }
+
+    .projects .headlines h1{
+        font-size: 50px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .projects .headlines p{
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    
+
+    .first h3{
+        font-size: 30px;
+    }
+
+    .projects .row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projects .row div{
+        margin-top: 20px;
+    }
+
+    .row div img{
+        width: 300px;
+    }
+
+    .row div{
+        text-align: center;
+    }
+
+    .row div h3, p{
+        margin-left: 15px;
+    }
+
+    .copyright h3{
+        font-size: 15px;
+    }
+
+    .contact {
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .contact{
+        justify-content: center;
+        margin-left: 25px;
+                padding: 40px 30px;
+    }
+
+    .about-container{
+        display: block;
+    }
+
+    .about-text h2{
+        margin-left: 30px;
+    }
+
+    .about-text p{
+        margin-left: 30px;
+    }
+
+    .icons .judul .bx{
+        display: none;
+    }
+
+    .icons .judul{
+        margin-left: 50px;
+    }
+
+    .get-in-touch{
+        padding: 0;
+        margin: 0;
+    }
+
+    .get-in-touch h1{
+        font-size: 30px;
+        margin-top: 50px;
+    }
+
+    .get-in-touch p{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .get-in-touch a{
+        text-align: center;
+    }
+
+    .contact-me{
+        margin: 0;
+        padding: 0;
+    }
+
+    .headlines h1{
+        font-size: 35px;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    .headlines p{
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .info{
+        margin-top: -100px;
+    }
+
+    .info img{
+    display: none;
+    }
+
+    .info div h2{
+        text-align: center;
+    }
+
+    .logo-contact{
+        display: flex;
+    }
+
+    .logo-contact p{
+        font-size: 20px;
+    }
+
+    .message p{
+        margin-top: 50px;
+    }
+
+    .message{
+        width: 90%;
+        margin: 0 20px;
+    }
+
+    .message button{
+        margin-top: 50px;
+    }
+
+    .copyright{
+        padding: 20px;
+    }
+
+}
