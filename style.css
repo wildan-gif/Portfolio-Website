@@ -452,7 +452,7 @@ a:hover{
     nav .item h1{
         font-size: 20px;
         margin-top: 30px;  
-             
+        margin-left: -50px;
     }
     .item{
         display: inline-block;
@@ -507,6 +507,10 @@ a:hover{
         width: 70%;
     }
 
+    .about-text h2{
+        text-align: center;
+    }
+
     .about .items p{
         font-size: 20px;
         width: 100%;
@@ -528,6 +532,10 @@ a:hover{
         font-size: 20px;
         margin-bottom: 30px;
     }
+
+    .project-bottom h3{
+        font-size: 34px;
+    }
     
 
     .first h3{
@@ -544,15 +552,16 @@ a:hover{
     }
 
     .row div img{
-        width: 200px;
+        width: 300px;
+        margin-left: -30px;
     }
 
     .row div{
         text-align: center;
     }
 
-    .row div h3, p{
-        margin-left: 15px;
+    .row .first h3{
+        font-size: 27px;
     }
 
     .copyright h3{
@@ -567,8 +576,8 @@ a:hover{
 
     .contact{
         justify-content: center;
-        margin-left: 25px;
-                padding: 40px 30px;
+        margin-left: 20px;
+        padding: 40px 30px;
     }
 
     .about-container{
@@ -585,6 +594,10 @@ a:hover{
 
     .icons .judul{
         margin: 0 30px;
+    }
+
+    .icons .bottom .judul h3{
+        font-size: 22px;
     }
 
     .get-in-touch{
@@ -611,6 +624,19 @@ a:hover{
         padding: 0;
     }
 
+    .contact-me .headlines{
+        margin: 0;
+        padding: 0;
+    }
+
+    .contact-me .headlines h1{
+        margin-top: 50px;
+    }
+
+    .contact-me .headlines p{
+        margin-bottom: 50px;
+    }
+
     .headlines h1{
         font-size: 35px;
         margin: 0;
@@ -620,12 +646,13 @@ a:hover{
 
     .headlines p{
         font-size: 15px;
-        margin: 0;
+        margin: 0 50px;
         padding: 0;
     }
 
     .info{
-        margin-top: -100px;
+        margin: 0;
+        padding: 0;
     }
 
     .info div{
@@ -633,20 +660,23 @@ a:hover{
         padding: 0;
     }
 
+    .info div h2{
+        margin-left: 5px;
+        text-align: center;
+    }
+
     .info img{
     display: none;
     }
 
-    .info div h2{
-        text-align: center;
-    }
-
     .logo-contact{
         display: flex;
+        margin: 0;
+        padding: 0;
     }
 
     .logo-contact p{
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .message p{
