@@ -451,20 +451,24 @@ a:hover{
     }
     .item{
         display: block;
+        padding: 0;
     }
 
     .nav-links, .btn{
         display: flex;
+        text-align: center;
     }
 
     .nav-links{
         font-size: 15px;
         margin-top: 30px;
+        text-align: center;
     }
 
     nav .item .btn{
         font-size: 15px;
         justify-content: center;
+        text-align: center;
     }
 
     .header .container{
@@ -533,7 +537,7 @@ a:hover{
     }
 
     .row div img{
-        width: 300px;
+        width: 200px;
     }
 
     .row div{
@@ -568,16 +572,12 @@ a:hover{
         margin-left: 30px;
     }
 
-    .about-text p{
-        margin-left: 30px;
-    }
-
     .icons .judul .bx{
         display: none;
     }
 
     .icons .judul{
-        margin-left: 50px;
+        margin: 0 30px;
     }
 
     .get-in-touch{
@@ -619,6 +619,11 @@ a:hover{
 
     .info{
         margin-top: -100px;
+    }
+
+    .info div{
+        margin: 0;
+        padding: 0;
     }
 
     .info img{
